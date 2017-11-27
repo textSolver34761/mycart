@@ -1,8 +1,8 @@
 <?php
 
-require __DIR__.'/models/Product.php';
+require __DIR__.'/models/Model.php';
 
 $products = Product::readAll();
 
-require __DIR__.'/views/products/browse.php';
+require __DIR__.'/views/session/formulairedidentification.php';
 
